@@ -1,0 +1,20 @@
+{
+  "name": "dockersamples",
+  "version": "1.0.0",
+  "description": "Docker Sample files",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "author": "Sajeev K",
+  "license": "ISC",
+  "devDependencies": {
+    "@badisi/wdio-harness": "^1.0.4",
+    "@wdio/cli": "^7.20.5",
+    "@wdio/local-runner": "^7.20.5",
+    "@wdio/mocha-framework": "^7.20.3",
+    "@wdio/spec-reporter": "^7.20.3",
+    "wdio-docker-service": "^3.2.0",
+    "wdio-wait-for": "^2.2.6"
+  }
+}
